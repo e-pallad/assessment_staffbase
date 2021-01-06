@@ -76,7 +76,7 @@
                 if ($info["http_code"] == 200) {
                     echo "Profilbild erfolgreich zum Benutzkonto von " . $value[2] . " hinzugefügt." . PHP_EOL;
                 } else {
-                    echo "Hochladen schlug mit HTML-Statuscode " . $info["http_code"] . "fehl." . PHP_EOL;
+                    echo "Hochladen schlug mit HTML-Statuscode " . $info["http_code"] . " fehl." . PHP_EOL;
                 }
             }
             
