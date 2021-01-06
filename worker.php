@@ -45,6 +45,7 @@
                 $name = $user["firstName"] . " " . $user["lastName"];
                 array_push($noAvatarUsers, array($id,$imagePath,$name));
             } else {
+                echo "Kein Bild für " . $user["firstName"] . " " . $user["lastName"] . " gefunden.";
                 continue;
             }
         } else {
